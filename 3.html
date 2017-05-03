@@ -1,0 +1,2299 @@
+
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="ChenZhuHua">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link rel="stylesheet" type="text/css" href="resmanage.css">
+<SCRIPT src="../js/ResBrowse.js"></SCRIPT>
+</HEAD>
+<BODY onload="page_Onload('基础教育>上海版（二期课改）')" topmargin=0 leftmargin=0>
+<form name=form1 id=form1>
+<table border=0 width="100%" height="100%" cellspacing=0 cellpadding=0 style="border:0px;padding : 0px;word-break:break-all">
+<!-- -------------------------------- Line 1 filter bar --------------------------------- -->
+
+<tr height="20" style="border:0px;padding : 0px">
+  <td style="border:0px;padding:0px;spacing:0px">
+     <table  width="100%" border="0" cellspacing=0 cellpadding=0 style="border:0px;padding:0px;spacing:0px">
+	<tr style="border:0px;padding:5px" >
+           <td align=right style="border:0px">媒体格式:
+             <input readonly name="txtFilterFormat" class="InputText" id="txtFilterFormat" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterFormat()" value="选择" title="点击选择过滤媒体格式" id="btFMedim" class="InputButton">&nbsp;&nbsp;</td>
+           <td align=left style="border:0px">&nbsp;&nbsp;资源类型:
+             <input readonly name="txtFilterResType" class="InputText" id="txtFilterResType" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterResType()" value="选择" title="点击选择过滤资源类型" id="btFResType"  class="InputButton"></td>
+	</tr>
+    </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 1 end -------------------------------------- -->
+<tr height="20" style="border:0px;padding:0px;display:none;"><!--Line 2 Button bar -->
+  <td style="border:0px;padding:0px;spacing:0px">
+  <table border=0 style="border:0px;padding:0px;display:none;" width="100%"  cellspacing=0 cellpadding=0 class="tableItem">
+    <tr>
+     <td title="节点属性查看" width="1"  style="cursor:hand;display:none"><img id="imgNodeProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="nodeProperty()"></td>
+       <td title="资源属性查看" width="1" style="cursor:hand;display:none"><img id="imgResProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="resProperty('R')" ></td>
+      </tr>
+  </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 2 end -------------------------------------- -->
+<tr height="20" style="border:0px;">
+ <td style="border:0px;padding:0px;spacing:0px">
+   <table  width='100%' height="100%" cellspacing=1 cellpadding=4 >
+	<tr class="table_title" style="border:1px;" height="10"><!--line 3.1 head of contend-->
+		<td style="border:1px" width="1%" style="display:none;"><input id="chkRes" type="checkbox" onclick="allClick(this.checked)" title='全选/取消全选' style="cursor:hand"></td>
+		<td style="border:1px" width="44%">名称</td>
+		<td style="border:1px" align="center" width="10%">媒体格式</td>
+		<td style="border:1px" align="center" width="10%">文件大小</td>
+		<td style="border:1px" align="center" width="10%">质量</td>
+		<td style="border:1px" align="center" width="12%">浏览次数</td>
+		<td style="border:1px" align="center" width="13%">创建时间</td>
+	</tr>
+<!-- ---------------------------------- Line 3 end -------------------------------------- -->
+  
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="98@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img0" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第4课《唱游课上》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;52.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;3027次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(0)"
+					onclick="doubleOpen('98','0','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第4课《唱游课上》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu0" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('98','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('98','0','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">52.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">3027次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="99@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img1" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4593次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(1)"
+					onclick="doubleOpen('99','1','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu1" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('99','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('99','1','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4593次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="100@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img2" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;35.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1462次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(2)"
+					onclick="doubleOpen('100','2','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu2" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('100','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('100','2','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">35.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1462次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="101@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img3" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;34.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1493次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(3)"
+					onclick="doubleOpen('101','3','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu3" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('101','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('101','3','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">34.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1493次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="102@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img4" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1209次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(4)"
+					onclick="doubleOpen('102','4','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu4" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('102','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('102','4','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1209次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="103@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img5" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;926次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(5)"
+					onclick="doubleOpen('103','5','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu5" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('103','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('103','5','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">926次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="104@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img6" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;88.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2483次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(6)"
+					onclick="doubleOpen('104','6','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu6" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('104','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('104','6','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">88.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2483次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="105@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img7" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;42.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4081次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(7)"
+					onclick="doubleOpen('105','7','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu7" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('105','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('105','7','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">42.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4081次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="106@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img8" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1573次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(8)"
+					onclick="doubleOpen('106','8','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu8" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('106','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('106','8','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1573次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="107@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img9" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2197次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(9)"
+					onclick="doubleOpen('107','9','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu9" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('107','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('107','9','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2197次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="108@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img10" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1282次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(10)"
+					onclick="doubleOpen('108','10','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu10" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('108','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('108','10','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1282次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="109@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img11" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1244次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(11)"
+					onclick="doubleOpen('109','11','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu11" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('109','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('109','11','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1244次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="110@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img12" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2449次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(12)"
+					onclick="doubleOpen('110','12','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu12" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('110','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('110','12','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2449次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="111@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img13" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1506次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(13)"
+					onclick="doubleOpen('111','13','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu13" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('111','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('111','13','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1506次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="112@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img14" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2884次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(14)"
+					onclick="doubleOpen('112','14','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu14" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('112','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('112','14','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2884次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr height="1"><!--line 3.3 foot of contend-->
+	<td align=right colspan=7 style="border:0px;padding:0px;spacing:0px">
+		  共<font color="red">10000</font>条
+		  每页<font color="red">15</font>条
+		  第<font color="red">3</font>/<font color="red">667</font>页
+
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','1','yes','')">首页</a>
+		  
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','2','yes','')">上一页</a>
+		  
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','4','yes','')">下一页</a>
+		  
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','667','yes','')">尾页</a>
+		  
+		  跳转到第<input class="InputText" id='txtGopage2' type='text' size=2 > 页<button class="InputButton" onclick="GoToPageX2(3,667,'BROWSE')" title="点击进行页码跳转">GO</button></td>
+    </tr>
+    <tr><!--3.4 var of contend-->
+       <td colspan="7" style="border:0px;padding:0px;spacing:0px"> <!--页内变量保存区-->
+<!--
+	<span onclick="testshow()"><font color="cfffd0">show test info</font></span>
+	<script>
+		function testshow(){
+			var obj=document.all.tags("span").item("test");
+			if(obj.style.display.length==0){
+	  			obj.style.display='none'
+			}else{
+	  			obj.style.display=''
+			}
+		}
+	</script>
+-->
+	<span id="test" style="display:none">
+		the following object only display for test!
+		<br>
+		<input type="text" value="" size=20 id='hidShowType' name="hidShowType" title="ShowType">
+		<input type="text" value="2" size=20 id='hidNodeID' name="hidNodeID" title="NodeID">
+		<input type="text" value="0>2>" size=20 id='hidNodePath' name="hidNodePath" title="NodePath">
+		<input type="text" value="15" size=20 id='hidPerPage' name="hidPerPage" title="PerPage">
+		<input type="text" value="3" size=20 id='hidPageNo' name="hidPageNo" title="PageNo">
+		<input type="text" value="667" size=20 id='hidPageCount' name="hidPageCount" title="PageCount">
+		<input type="text" value="10000" size=20 id='hidResultSize' name="hidResultSize" title="ResultSize">
+		<input type="text" value="一般" size=20 id='hidQuality' name="hidQuality" title="Quality">
+		<input type="text" value="" size=20 id='hidCreateStart' name="hidCreateStart" title="CreateStart">
+		<input type="text" value="" size=20 id='hidCreateEndt' name="hidCreateEnd" title="CreateEnd">
+		<input type="text" value="" size=20 id='hidResTypeIDs' name="hidResTypeIDs" title="ResTypeIDs">
+		<input type="text" value="" size=20 id='hidMediumIDs' name="hidMediumIDs" title="MediumIDs">
+		<input type="text" value="" size=20 id='hidGradeLevelIDs' name="hidGradeLevelIDs" title="GradeLevelIDs">
+		<input type="text" value="" size=20 id='hidSubjectType' name="hidSubjectType" title="SubjectType">
+		<input type="text" value="" size=20 id='hidPopMenuID' name="hidPopMenuID" title="PopMenuID">
+		<input type="text" value="" size=20 id='hidKeywords'  name="hidKeywords" title="Keywords">
+		<input type="text" value="" size=20 id='hidTitles'  name="hidTitles" title="SearchTitle">
+		<input type="text" value="" size=20 id='hidDescribes'  name="hidDescribes" title="Describes">
+		<input type="text" value="" size=20 id='hidCheckState'  name="hidCheckState" title="CheckState">
+		<input type="text" value="" size=20 id='hidEduTypeIDs'  name="hidEduTypeIDs" title="EduTypeIDs">
+		<input type="text" value="" size=20 id='hidAuthor'  name="hidAuthor" title="Author">
+		<input type="text" value="BROWSE" size=20 id='hidPlace'  name="hidPlace" title="Place">
+		<input type="text" value="" size=20 id='hidOrderBy'  name="hidOrderBy" title="OrderBy">
+		<input type="text" value="" size=20 id='hidNodeOrderBy'  name="hidNodeOrderBy" title="NodeOrderBy">
+        </span>
+  	</td>
+      </tr>
+      </table>
+    </td>
+ </tr><!--Line 3 End!-->
+ <tr>
+   	<td colspan="7" style="border:0px;padding:0px;spacing:0px">&nbsp;
+ 	</td>
+ </tr><!--Line 4 End!-->
+</table>
+</form>
+<script language="javascript">
+//如果没有资源，使过滤按钮无效
+     if(!form1.chkRes){
+	 document.form1.btFMedim.disabled=true;
+         document.form1.btFResType.disabled=true;
+     }
+</script>
+</BODY>
+</HTML>
+<SCRIPT src="../js/MenuBlank.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript">
+        var one = new MouseMenu("one");
+        one.addMenu("查看","","","_self","");
+                one[0].addLink("图标方式","","javascript:handleUrl('BROWSE',location,'','','yes','ResIcon.jsp')");
+                one[0].addLink("列表方式","","javascript:handleUrl('BROWSE',location,'','','yes','ResList.jsp')");
+                one[0].addLink("缩略图方式","","javascript:handleUrl('BROWSE',location,'','','yes','ResPrew.jsp')");
+            one.addMenu("排列方式","");
+                one[1].addLink("按名称","","javascript:handleUrl('BROWSE',location,'OrderBy#NodeOrderBy','title asc#nodename asc','yes','')");
+                one[1].addLink("按大小","","javascript:handleUrl('BROWSE',location,'OrderBy','filesize desc','yes','')");
+                one[1].addLink("按类型","","javascript:handleUrl('BROWSE',location,'OrderBy','mediumid asc','yes','')");
+                one[1].addLink("按日期","","javascript:handleUrl('BROWSE',location,'OrderBy#NodeOrderBy','importdate desc#createtime desc','yes','')");
+          one.addMenu("转到","");
+              one[2].addLink("后退","","javascript:window.history.back()");
+              one[2].addLink("前进","","javascript:window.history.forward()");
+          one.addLink("刷新","","javascript:handleUrl('BROWSE',location,'reload','1','yes','')");
+</SCRIPT>
+
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="ChenZhuHua">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link rel="stylesheet" type="text/css" href="resmanage.css">
+<SCRIPT src="../js/ResBrowse.js"></SCRIPT>
+</HEAD>
+<BODY onload="page_Onload('基础教育>上海版（二期课改）')" topmargin=0 leftmargin=0>
+<form name=form1 id=form1>
+<table border=0 width="100%" height="100%" cellspacing=0 cellpadding=0 style="border:0px;padding : 0px;word-break:break-all">
+<!-- -------------------------------- Line 1 filter bar --------------------------------- -->
+
+<tr height="20" style="border:0px;padding : 0px">
+  <td style="border:0px;padding:0px;spacing:0px">
+     <table  width="100%" border="0" cellspacing=0 cellpadding=0 style="border:0px;padding:0px;spacing:0px">
+	<tr style="border:0px;padding:5px" >
+           <td align=right style="border:0px">媒体格式:
+             <input readonly name="txtFilterFormat" class="InputText" id="txtFilterFormat" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterFormat()" value="选择" title="点击选择过滤媒体格式" id="btFMedim" class="InputButton">&nbsp;&nbsp;</td>
+           <td align=left style="border:0px">&nbsp;&nbsp;资源类型:
+             <input readonly name="txtFilterResType" class="InputText" id="txtFilterResType" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterResType()" value="选择" title="点击选择过滤资源类型" id="btFResType"  class="InputButton"></td>
+	</tr>
+    </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 1 end -------------------------------------- -->
+<tr height="20" style="border:0px;padding:0px;display:none;"><!--Line 2 Button bar -->
+  <td style="border:0px;padding:0px;spacing:0px">
+  <table border=0 style="border:0px;padding:0px;display:none;" width="100%"  cellspacing=0 cellpadding=0 class="tableItem">
+    <tr>
+     <td title="节点属性查看" width="1"  style="cursor:hand;display:none"><img id="imgNodeProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="nodeProperty()"></td>
+       <td title="资源属性查看" width="1" style="cursor:hand;display:none"><img id="imgResProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="resProperty('R')" ></td>
+      </tr>
+  </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 2 end -------------------------------------- -->
+<tr height="20" style="border:0px;">
+ <td style="border:0px;padding:0px;spacing:0px">
+   <table  width='100%' height="100%" cellspacing=1 cellpadding=4 >
+	<tr class="table_title" style="border:1px;" height="10"><!--line 3.1 head of contend-->
+		<td style="border:1px" width="1%" style="display:none;"><input id="chkRes" type="checkbox" onclick="allClick(this.checked)" title='全选/取消全选' style="cursor:hand"></td>
+		<td style="border:1px" width="44%">名称</td>
+		<td style="border:1px" align="center" width="10%">媒体格式</td>
+		<td style="border:1px" align="center" width="10%">文件大小</td>
+		<td style="border:1px" align="center" width="10%">质量</td>
+		<td style="border:1px" align="center" width="12%">浏览次数</td>
+		<td style="border:1px" align="center" width="13%">创建时间</td>
+	</tr>
+<!-- ---------------------------------- Line 3 end -------------------------------------- -->
+  
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="98@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img0" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第4课《唱游课上》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;52.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;3027次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(0)"
+					onclick="doubleOpen('98','0','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第4课《唱游课上》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu0" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('98','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('98','0','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">52.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">3027次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="99@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img1" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4593次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(1)"
+					onclick="doubleOpen('99','1','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu1" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('99','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('99','1','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4593次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="100@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img2" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;35.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1462次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(2)"
+					onclick="doubleOpen('100','2','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu2" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('100','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('100','2','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">35.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1462次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="101@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img3" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;34.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1493次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(3)"
+					onclick="doubleOpen('101','3','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu3" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('101','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('101','3','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">34.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1493次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="102@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img4" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1209次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(4)"
+					onclick="doubleOpen('102','4','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu4" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('102','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('102','4','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1209次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="103@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img5" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;926次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(5)"
+					onclick="doubleOpen('103','5','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu5" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('103','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('103','5','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">926次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="104@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img6" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;88.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2483次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(6)"
+					onclick="doubleOpen('104','6','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu6" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('104','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('104','6','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">88.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2483次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="105@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img7" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;42.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4081次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(7)"
+					onclick="doubleOpen('105','7','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu7" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('105','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('105','7','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">42.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4081次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="106@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img8" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1573次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(8)"
+					onclick="doubleOpen('106','8','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu8" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('106','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('106','8','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1573次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="107@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img9" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2197次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(9)"
+					onclick="doubleOpen('107','9','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu9" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('107','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('107','9','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2197次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="108@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img10" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1282次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(10)"
+					onclick="doubleOpen('108','10','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu10" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('108','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('108','10','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1282次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="109@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img11" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1244次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(11)"
+					onclick="doubleOpen('109','11','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu11" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('109','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('109','11','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1244次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="110@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img12" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2449次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(12)"
+					onclick="doubleOpen('110','12','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu12" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('110','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('110','12','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2449次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="111@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img13" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1506次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(13)"
+					onclick="doubleOpen('111','13','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu13" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('111','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('111','13','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1506次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="112@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img14" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2884次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(14)"
+					onclick="doubleOpen('112','14','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu14" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('112','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('112','14','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2884次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr height="1"><!--line 3.3 foot of contend-->
+	<td align=right colspan=7 style="border:0px;padding:0px;spacing:0px">
+		  共<font color="red">10000</font>条
+		  每页<font color="red">15</font>条
+		  第<font color="red">3</font>/<font color="red">667</font>页
+
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','1','yes','')">首页</a>
+		  
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','2','yes','')">上一页</a>
+		  
+		  
+		
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="ChenZhuHua">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link rel="stylesheet" type="text/css" href="resmanage.css">
+<SCRIPT src="../js/ResBrowse.js"></SCRIPT>
+</HEAD>
+<BODY onload="page_Onload('基础教育>上海版（二期课改）')" topmargin=0 leftmargin=0>
+<form name=form1 id=form1>
+<table border=0 width="100%" height="100%" cellspacing=0 cellpadding=0 style="border:0px;padding : 0px;word-break:break-all">
+<!-- -------------------------------- Line 1 filter bar --------------------------------- -->
+
+<tr height="20" style="border:0px;padding : 0px">
+  <td style="border:0px;padding:0px;spacing:0px">
+     <table  width="100%" border="0" cellspacing=0 cellpadding=0 style="border:0px;padding:0px;spacing:0px">
+	<tr style="border:0px;padding:5px" >
+           <td align=right style="border:0px">媒体格式:
+             <input readonly name="txtFilterFormat" class="InputText" id="txtFilterFormat" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterFormat()" value="选择" title="点击选择过滤媒体格式" id="btFMedim" class="InputButton">&nbsp;&nbsp;</td>
+           <td align=left style="border:0px">&nbsp;&nbsp;资源类型:
+             <input readonly name="txtFilterResType" class="InputText" id="txtFilterResType" value="========所有========" title="========所有========" size=28>&nbsp;
+             <input type="button" onclick="filterResType()" value="选择" title="点击选择过滤资源类型" id="btFResType"  class="InputButton"></td>
+	</tr>
+    </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 1 end -------------------------------------- -->
+<tr height="20" style="border:0px;padding:0px;display:none;"><!--Line 2 Button bar -->
+  <td style="border:0px;padding:0px;spacing:0px">
+  <table border=0 style="border:0px;padding:0px;display:none;" width="100%"  cellspacing=0 cellpadding=0 class="tableItem">
+    <tr>
+     <td title="节点属性查看" width="1"  style="cursor:hand;display:none"><img id="imgNodeProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="nodeProperty()"></td>
+       <td title="资源属性查看" width="1" style="cursor:hand;display:none"><img id="imgResProperty" src="../pic/button/Tcopyto3.jpg"
+	  onclick="resProperty('R')" ></td>
+      </tr>
+  </table>
+  </td>
+</tr>
+<!-- ---------------------------------- Line 2 end -------------------------------------- -->
+<tr height="20" style="border:0px;">
+ <td style="border:0px;padding:0px;spacing:0px">
+   <table  width='100%' height="100%" cellspacing=1 cellpadding=4 >
+	<tr class="table_title" style="border:1px;" height="10"><!--line 3.1 head of contend-->
+		<td style="border:1px" width="1%" style="display:none;"><input id="chkRes" type="checkbox" onclick="allClick(this.checked)" title='全选/取消全选' style="cursor:hand"></td>
+		<td style="border:1px" width="44%">名称</td>
+		<td style="border:1px" align="center" width="10%">媒体格式</td>
+		<td style="border:1px" align="center" width="10%">文件大小</td>
+		<td style="border:1px" align="center" width="10%">质量</td>
+		<td style="border:1px" align="center" width="12%">浏览次数</td>
+		<td style="border:1px" align="center" width="13%">创建时间</td>
+	</tr>
+<!-- ---------------------------------- Line 3 end -------------------------------------- -->
+  
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="98@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img0" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第4课《唱游课上》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;52.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;3027次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(0)"
+					onclick="doubleOpen('98','0','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第4课《唱游课上》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu0" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('98','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('98','0','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">52.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">3027次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="99@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img1" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4593次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(1)"
+					onclick="doubleOpen('99','1','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu1" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('99','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('99','1','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4593次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="100@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img2" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;35.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1462次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(2)"
+					onclick="doubleOpen('100','2','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu2" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('100','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('100','2','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">35.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1462次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="101@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img3" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;34.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1493次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(3)"
+					onclick="doubleOpen('101','3','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu3" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('101','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('101','3','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">34.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1493次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="102@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img4" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1209次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(4)"
+					onclick="doubleOpen('102','4','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu4" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('102','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('102','4','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1209次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="103@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img5" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;926次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(5)"
+					onclick="doubleOpen('103','5','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu5" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('103','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('103','5','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">926次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="104@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img6" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;《识字游戏1》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;88.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2483次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(6)"
+					onclick="doubleOpen('104','6','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>《识字游戏1》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu6" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('104','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('104','6','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">88.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2483次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="105@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img7" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;42.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;4081次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(7)"
+					onclick="doubleOpen('105','7','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu7" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('105','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('105','7','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">42.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">4081次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="106@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img8" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1573次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(8)"
+					onclick="doubleOpen('106','8','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu8" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('106','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('106','8','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1573次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="107@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img9" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2197次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(9)"
+					onclick="doubleOpen('107','9','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu9" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('107','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('107','9','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2197次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="108@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img10" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;38.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1282次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(10)"
+					onclick="doubleOpen('108','10','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu10" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('108','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('108','10','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">38.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1282次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="109@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img11" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;40.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1244次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(11)"
+					onclick="doubleOpen('109','11','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu11" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('109','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('109','11','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">40.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1244次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="110@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img12" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第5课《我的家》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2449次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(12)"
+					onclick="doubleOpen('110','12','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第5课《我的家》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu12" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('110','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('110','12','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2449次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#dce7f8" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="111@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#dce7f8">
+				<tr class="tdtrItem">
+					<td id="img13" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;36.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;1506次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(13)"
+					onclick="doubleOpen('111','13','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu13" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('111','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('111','13','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">36.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">1506次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr style="border:1px;padding:0px;background-color:#f1f8ff" height="10"><!--line 3.2 contend of contend-->
+		<td style="border:0px;" style="display:none;" width="1%"><input id="chkRes" value="112@1@R" type="checkbox" onclick='resCheckClick(this)' style="cursor:hand"></td>
+		<td style="border:0px;" width="44%">
+			<table cellPadding="1" cellSpacing="1" class="tableItem" style="background-color:#f1f8ff">
+				<tr class="tdtrItem">
+					<td id="img14" class="td-mouseout" style="cursor:hand;"
+							    title='名称:&nbsp;第6课《早餐》
+媒体格式:&nbsp;doc
+文件大小:&nbsp;44.0KB
+资源质量:&nbsp;一般
+被浏览&nbsp;2884次
+创建时间:&nbsp;2004-09-20'
+					onmouseout="this.className='td-mouseout'"
+					onmouseover="this.className='td-mousein'"
+					onmouseup="mouseRClick(14)"
+					onclick="doubleOpen('112','14','R','','BROWSE')">
+		      <IMG src="./pic/fileicon/s_doc.gif"  align=absmiddle valign="middle"><font color=''>第6课《早餐》</font>
+
+<!-- -------------------------------------- 右键菜单（begin）------------------------------- -->
+
+<span id="menu14" style="position: absolute;left:30px;top:10px; width: 100; height:40; z-index: 100; visibility: hidden; left: 288; top: 63">
+   <table width="100%" height="100%" class=menutable cellspacing="0" cellpadding="0">
+     <tr>				<!--播放-->
+           <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'"  onClick="doubleOpen('112','play','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 播放</td>
+     </tr>
+                <tr><!--属性查看-->
+                        <td height="20"  class="menutrout" onmouseover="this.className='menutrin'" onmouseout="this.className='menutrout'" id="Property" onclick="doubleOpen('112','14','R','','BROWSE');window.event.cancelBubble=true;">&nbsp;&nbsp; 属性</td>
+                </tr>
+        </table>
+</span>
+
+<!-- --------------------------------------- 右键菜单（end）----------------------------------- -->
+
+		    			</td>
+				</tr>
+			</table>
+		</td>
+		<td style="border:1px;" align="center" width="10%">doc</td>
+		<td style="border:1px;" align="right" width="10%">44.0KB</td>
+		<td style="border:1px;" align="center" width="10%">一般</td>
+		<td style="border:1px;" align="center" width="12%">2884次</td>
+		<td style="border:1px;" align="center" width="13%">2004-09-20</td>
+	</tr>
+
+    <tr height="1"><!--line 3.3 foot of contend-->
+	<td align=right colspan=7 style="border:0px;padding:0px;spacing:0px">
+		  共<font color="red">10000</font>条
+		  每页<font color="red">15</font>条
+		  第<font color="red">3</font>/<font color="red">667</font>页
+
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','1','yes','')">首页</a>
+		  
+		  
+			<a href="###" onclick="handleUrl('BROWSE',location,'PageNo','2','yes','')">上一页</a>
+		  
+		  
+		

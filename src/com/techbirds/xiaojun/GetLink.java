@@ -1,11 +1,11 @@
 package com.techbirds.xiaojun;
 
-import java.io.IOException;  
-import java.util.Iterator;  
-  
-import org.jsoup.Jsoup;  
-import org.jsoup.nodes.Document;  
-import org.jsoup.nodes.Element;  
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;  
   
 /** 
@@ -72,8 +72,19 @@ public class GetLink {
       }  
   }  
     
-  public static void main(String[] args) {  
-      new GetLink().getLink(Constants.URL);  
+  public static void main(String[] args) throws IOException {  
+//      new GetLink().getLink(Constants.URL); 
+	  	 Document document = Jsoup.connect("https://item.jd.com/3652063.html").timeout(5000).get(); 
+	    /* Elements select = document.select("div[class=tab-con]");
+	     Elements select2 = select.select("div");*/
+	     Elements select2 = document.select("div[comment-item]");
+	     
+	     String text = select2.get(0).text();
+	     System.out.println(text);
+	     for (Element element : select2) {
+			System.out.println(element.text());
+//			System.out.println(element.select("a").attr("href"));
+		}
   }  
   
 }  

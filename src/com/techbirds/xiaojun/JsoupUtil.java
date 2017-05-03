@@ -35,7 +35,7 @@ public class JsoupUtil {
      * @return sql 
      */  
     public String getInsertSql(Link link) {  
-        return "insert into jsoup (id, urlname, url, date) values ('"  
+        return "insert into link (id, urlname, url, date) values ('"  
                 + link.getId() + "','" + link.getUrlName() + "','"  
                 + link.getUrl() + "',NOW())";  
     }  }  

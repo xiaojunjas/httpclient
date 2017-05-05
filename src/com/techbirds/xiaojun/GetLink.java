@@ -73,10 +73,10 @@ public class GetLink {
   }  
     
   public static void main(String[] args) throws IOException {  
-//      new GetLink().getLink(Constants.URL); 
-	  	 Document document = Jsoup.connect("https://item.jd.com/3652063.html").timeout(5000).get(); 
-	    /* Elements select = document.select("div[class=tab-con]");
-	     Elements select2 = select.select("div");*/
+      new GetLink().getLink(Constants.URL); 
+	  	/* Document document = Jsoup.connect("https://item.jd.com/3652063.html").timeout(5000).get(); 
+	     Elements select = document.select("div[class=tab-con]");
+	     Elements select2 = select.select("div");
 	     Elements select2 = document.select("div[comment-item]");
 	     
 	     String text = select2.get(0).text();
@@ -84,7 +84,7 @@ public class GetLink {
 	     for (Element element : select2) {
 			System.out.println(element.text());
 //			System.out.println(element.select("a").attr("href"));
-		}
+		}*/
   }  
   
 }  

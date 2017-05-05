@@ -9,15 +9,15 @@ public class Constants {
     /** 
      * 链接 
      */  
-    public static final String DBURL    = "jdbc:mysql://192.168.1.7:3306/edu_tqap?useUnicode=true&amp;characterEncoding=utf-8";  
+    public static final String DBURL    = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8";  
     /** 
      * username 
      */  
-    public static final String USER     = "edu";  
+    public static final String USER     = "root";  
     /** 
      * password 
      */  
-    public static final String PASSWORD = "edu";  
+    public static final String PASSWORD = "root";  
     /** 
      * 随便找的一个URL 
      */  
